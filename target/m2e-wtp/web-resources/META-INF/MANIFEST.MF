@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Built-By: MFEC
+Build-Jdk: 1.8.0_131
+Implementation-Title: demo Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: th.co.mfec.project
+Created-By: Maven Integration for Eclipse
+
