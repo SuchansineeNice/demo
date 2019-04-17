@@ -15,8 +15,8 @@ public class Controller {
 	private Service service;
 	
 	@PostMapping("/api/HelloWorld")
-	public void helloWorld() {
-		service.helloWorld();
+	public String helloWorld() {
+		return service.helloWorld();
 	}
 	
 	@PostMapping("/api/product/create")

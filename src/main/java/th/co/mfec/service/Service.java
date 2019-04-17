@@ -12,8 +12,8 @@ public class Service {
 	@Autowired
 	private ProductRepository productRepository;
 	
-	public void helloWorld() {
-		System.out.print("Hello World Nice!");
+	public String helloWorld() {
+		return "Hello World";
 	}
 	
 	public Product create(Product product) {
