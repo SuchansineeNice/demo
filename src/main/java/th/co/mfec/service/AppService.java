@@ -7,7 +7,7 @@ import th.co.mfec.model.Product;
 import th.co.mfec.repo.ProductRepository;
 
 @Component
-public class Service {
+public class AppService {
 	
 	@Autowired
 	private ProductRepository productRepository;

@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import th.co.mfec.model.Product;
-import th.co.mfec.service.Service;
+import th.co.mfec.service.AppService;
 
 @RestController
-public class Controller {
+public class AppController {
 	
 	@Autowired
-	private Service service;
+	private AppService service;
 	
 	@PostMapping("/api/HelloWorld")
 	public String helloWorld() {
